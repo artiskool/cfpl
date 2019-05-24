@@ -1,0 +1,12 @@
+VAR a=100, b=200, c=300 AS INT
+VAR d="FALSE" AS BOOL
+START
+    IF ("FALSE")
+        START
+            OUTPUT: "Inside IF"
+        STOP
+    ELSE
+        START
+            OUTPUT: "Inside ELSE"
+        STOP
+STOP

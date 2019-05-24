@@ -1,0 +1,8 @@
+VAR a=100, b=200, c=300 AS INT
+VAR d="FALSE" AS BOOL
+START
+    d = (a < b AND c <>200)
+    OUTPUT: d
+STOP
+* Output of the sample program:
+* TRUE

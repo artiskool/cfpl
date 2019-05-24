@@ -1,0 +1,8 @@
+VAR i=0 AS INT
+START
+    WHILE (i <= 10)
+    START
+        OUTPUT: "i: " & i
+        i = (i + 1)
+    STOP
+STOP

@@ -1,0 +1,8 @@
+VAR a=100, b=200, c=300 AS INT
+VAR d="FALSE" AS BOOL
+START
+    IF ((a >= b NOT c <=200))
+    START
+        OUTPUT: "IF is TRUE"
+    STOP
+STOP

@@ -1,0 +1,7 @@
+VAR i=0 AS INT
+VAR x AS FLOAT
+VAR y AS INT
+START
+    INPUT: x, y
+    OUTPUT: "x: " & x & " y: " & y
+STOP
