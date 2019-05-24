@@ -1,5 +1,9 @@
 # Language Specification of CIT’s First Programming Language (CFPL)
 
+## Usage
+
+      # python interpreter.py tests/test1.txt
+
 ## Introduction
 CFPL is a very simple programming language that allows the programmer to achieve fluency in minutes. It is a strongly typed programming language. It is intended for students enrolled in programming languages. It aims to train them on how to build a pure interpreter.
 
